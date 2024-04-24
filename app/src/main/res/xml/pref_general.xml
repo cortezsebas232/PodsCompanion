@@ -1,0 +1,52 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <io.github.domi04151309.podscompanion.custom.BatteryPreference
+        android:key="battery" />
+
+    <PreferenceCategory android:title="@string/prefs">
+
+        <SwitchPreference
+            app:isPreferenceVisible="false"
+            android:enabled="false"
+            android:defaultValue="false"
+            android:icon="@drawable/ic_hearing"
+            android:key="in_ear_detection"
+            android:summary="@string/pref_in_ear_detection_summary"
+            android:title="@string/pref_in_ear_detection" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:icon="@drawable/ic_pop_up"
+            android:key="show_pop_up"
+            android:summary="@string/pref_show_pop_up_summary"
+            android:title="@string/pref_show_pop_up" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:icon="@drawable/ic_notification"
+            android:key="show_notification"
+            android:summary="@string/pref_show_notification_summary"
+            android:title="@string/pref_show_notification" />
+        <ListPreference
+            android:defaultValue="rich"
+            android:entries="@array/pref_notification_style_array"
+            android:entryValues="@array/pref_notification_style_array_values"
+            android:icon="@drawable/ic_notification"
+            android:key="notification_style"
+            android:summary="@string/pref_notification_style_summary"
+            android:title="@string/pref_notification_style" />
+        <ListPreference
+            android:defaultValue="auto"
+            android:entries="@array/pref_theme_array"
+            android:entryValues="@array/pref_theme_array_values"
+            android:icon="@drawable/ic_style"
+            android:key="theme"
+            android:summary="@string/pref_theme_summary"
+            android:title="@string/pref_theme" />
+        <Preference
+            android:icon="@drawable/ic_info"
+            android:key="about"
+            android:summary="@string/about_summary"
+            android:title="@string/about" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

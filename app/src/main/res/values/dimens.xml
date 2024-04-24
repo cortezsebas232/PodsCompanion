@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="corner_radius">16dp</dimen>
+
+    <dimen name="notification_padding">2dp</dimen>
+    <dimen name="notification_padding_big">8dp</dimen>
+    <dimen name="notification_circle_width">1dp</dimen>
+    <dimen name="notification_icon_height">48dp</dimen>
+    <dimen name="notification_inner_icon_height">32dp</dimen>
+
+    <dimen name="pref_icon_height">128dp</dimen>
+
+    <dimen name="about_item_margin">16dp</dimen>
+    <dimen name="about_divider_margin">32dp</dimen>
+    <dimen name="header_icon_height">48dp</dimen>
+</resources>
